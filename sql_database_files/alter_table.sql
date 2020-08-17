@@ -1,0 +1,5 @@
+ALTER TABLE Vet
+RENAME COLUMN patient_name TO business_name;
+
+ALTER TABLE Dog
+ADD COLUMN Breed VARCHAR;

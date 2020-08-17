@@ -31,3 +31,62 @@ INSERT INTO Owner (
   (24, 'Xi', 33, 'Luke', 'Tasha'),
   (25, 'Zorro', 33, 'Zen', 'Kara');
   
+INSERT INTO Dog (
+  Id,
+  Name,
+  Owner_Name,
+  Age,
+  Vet_Name)
+  VALUES 
+  (1, 'Matt', 'Aaron', 2, 'Leona'),
+  (2, 'Phil', 'Brad', 5, 'Leona'),
+  (3, 'Fido', 'Charity', 18, 'Michael'),
+  (4, 'Brownie', 'Deanna', 2, 'James'),
+  (5, 'Ruff', 'Earl', 1, 'Paul'),
+  (6, 'Midnight', 'Fani', 12, 'Debbie'),
+  (7, 'Lassie',  'Gary', 2, 'Marc'),
+  (8, 'Toto', 'Heather', 7, 'Maria'),
+  (9, 'Coco', 'Ivan', 17, 'Maria'),
+  (10, 'Toy', 'Jesus', 3, 'Kumail'),
+  (11, 'Charles', 'Kevin', 11, 'Dean'),
+  (12, 'Skippy', 'Lorraine', 9, 'Imani'),
+  (13, 'Walley', 'Michela', 4, 'Fredricka'),
+  (14, 'Fred', 'Nikki', 8, 'Deb'),
+  (15, 'Piggy', 'Omar', 2, 'Kumail'),
+  (16, 'Fox', 'Paula', 1, 'Kara'),
+  (17, 'True', 'Quincy', 3, 'Duane'),
+  (18, 'Mimi', 'Riley', 2, 'Richard'),
+  (19, 'Trent', 'Soo', 2, 'Scooter'),
+  (20, 'Any', 'Toby', 2, 'Rachael'),
+  (21, 'Ivory', 'Unique', 6, 'Debbie'),
+  (22, 'Ebony', 'Vera', 2, 'Harold'),
+  (23, 'Pippy', 'Walker', 10, 'Arlan'),
+  (24, 'Luke', 'Xi', 10, 'Tasha'),
+  (25, 'Zen', 'Zorro', 14, 'Kara');
+
+  INSERT INTO Vet (
+  Id,
+  Name,
+  business_name,
+  city_name)
+  VALUES
+  (1, 'Leona','Pet Vet','Atlanta'),
+  (2, 'Michael','Pet Doc','Athens'),
+  (3, 'James','Furry Friends','Macon'),
+  (4, 'Paul','Fuzzy Health','Atlanta'),
+  (5, 'Debbie','Pet Vet','Atlanta'),
+  (6, 'Marc','The Vet','Covington'),
+  (7, 'Maria','Pet Vet','Atlanta'),
+  (8, 'Kumail','Pet Vet','Atlanta'),
+  (9, 'Dean','Pet Care','Newnan'),
+  (10, 'Imani','We Care','Roswell'),
+  (11, 'Fredricka','Med Vet','Griffin'),
+  (12, 'Deb','Deb Med','Atlanta'),
+  (13, 'Kara','My Pet','Decatur'),
+  (14, 'Duane','Vet Doc','Atlanta'),
+  (15, 'Richard','Paws','Conyers'),
+  (16, 'Scooter','Claws','Marietta'),
+  (17, 'Rachael','Healthy Pet','Ackworth'),
+  (18, 'Harold','Critters','Augusta'),
+  (19, 'Arlan','Small Wonders', 'Savannah'),
+  (20, 'Tasha','Small Wonders','Savannah');
